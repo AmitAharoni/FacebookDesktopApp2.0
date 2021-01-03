@@ -8,8 +8,6 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
     public sealed class AppManager
     {
         private const string AppId = "2695170000736846";
-        private static readonly object sr_CreationalLockContect = new object();
-        private static AppManager s_Instance = null;
         private LoginResult m_LoginResult;
         private FormLogIn m_FormLogin = null;
         private FormMain m_FormMain = null;
@@ -20,18 +18,7 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
         {
             get
             {
-                if (s_Instance == null)
-                {
-                    lock (sr_CreationalLockContect)
-                    {
-                        if (s_Instance == null)
-                        {
-                            s_Instance = new AppManager();
-                        }
-                    }
-                }
-
-                return s_Instance;
+                    return Singleton<AppManager>.Instance;
             }
         }
 
