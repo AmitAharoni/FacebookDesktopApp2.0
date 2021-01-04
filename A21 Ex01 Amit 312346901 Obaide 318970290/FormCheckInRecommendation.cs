@@ -10,6 +10,7 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
         private AppManager m_AppManager;
         private string[] m_ButtonsNames;
         private eURLType m_LastURLType;
+
         public FormCheckInRecommendation()
         {
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
         {
             buttonsRow.ColumnCount = m_ButtonsNames.Length;
             buttonsRow.ColumnStyles.Clear();
-            int width = (100 / buttonsRow.ColumnCount);
+            int width = 100 / buttonsRow.ColumnCount;
             foreach (string buttonName in m_ButtonsNames)
             {
                 Button buttonToAdd = new Button();

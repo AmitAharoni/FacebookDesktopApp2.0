@@ -5,6 +5,6 @@
         Images,
         Videos,
         Weather,
-        Restaurants,
+        Restaurants
     }
 }
