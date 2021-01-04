@@ -431,7 +431,6 @@
           #endregion
           private System.Windows.Forms.Button buttonLogout;
           private PicturesBoxChangeSizeProxy pictureBoxProfileImage;
-          //private System.Windows.Forms.PictureBox pictureBoxProfileImage;
           private System.Windows.Forms.ListBox listBoxFriends;
           private System.Windows.Forms.ListBox listBoxPosts;
           private System.Windows.Forms.ListBox listBoxCheckIn;

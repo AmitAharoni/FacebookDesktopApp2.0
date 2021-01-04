@@ -76,7 +76,7 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
 
         private AppManager()
         {
-        }
+        } 
 
         public User LoggedInUser
         {

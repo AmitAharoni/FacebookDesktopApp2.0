@@ -142,7 +142,6 @@
     <None Include="icons\location.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="A21 Ex02 Amit 312346901 Obaide 318970290.txt" />
     <Content Include="icons\AppIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

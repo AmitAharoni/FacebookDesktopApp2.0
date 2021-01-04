@@ -18,11 +18,11 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
                fetchUserData();
           }
 
-         private void fetchUserData()
-        {
-            userBindingSource.DataSource = m_LoggedInUser;
-            pictureBoxProfileImage.Load(m_LoggedInUser.PictureLargeURL);
-        }
+          private void fetchUserData()
+          {
+               userBindingSource.DataSource = m_LoggedInUser;
+               pictureBoxProfileImage.Load(m_LoggedInUser.PictureLargeURL);
+          }
 
           private void fetchFriends()
           {
@@ -93,7 +93,7 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
 
           private void labelCheckIns_Click(object sender, EventArgs e)
           {
-              new Thread(fetchCheckIns).Start();
+               new Thread(fetchCheckIns).Start();
           }
 
           private void buttonLogout_Click(object sender, EventArgs e)
@@ -150,8 +150,8 @@ namespace A21_Ex01_Amit_312346901_Obaide_318970290
 
                if(isValidData == true)
                {
-                    string stringDay = i_DateString.Substring(0, 2);
-                    string stringMonth = i_DateString.Substring(3, 2);
+                    string stringMonth = i_DateString.Substring(0, 2);
+                    string stringDay = i_DateString.Substring(3, 2);
                     string stringYear = i_DateString.Substring(6, 4);
                     int intDay = 0, intMonth = 0, intYear = 0;
                     char firstSlash = i_DateString[2], secSlash = i_DateString[5];

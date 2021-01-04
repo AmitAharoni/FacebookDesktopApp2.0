@@ -2,7 +2,7 @@
 
 namespace A21_Ex01_Amit_312346901_Obaide_318970290
 {
-    public class URLFactory
+    public static class URLFactory
     {
         public static IURL CreateURL(eURLType i_Type)
         {
